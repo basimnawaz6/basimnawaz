@@ -119,7 +119,17 @@ const CyberParticles = () => {
 
 function App() {
   const [booted, setBooted] = useState(false);
-
+  
+  useEffect(() => {
+    if (window.location.hash) {
+      const timer = setTimeout(() => {
+        window.scrollTo(0, 0);
+        history.replaceState(null, null, window.location.pathname + window.location.search);
+      }, 100);
+      return () => clearTimeout(timer);
+    }
+  }, []);
+  
   return (
     <div className="relative min-h-screen bg-cyber-black text-gray-200 font-rajdhani">
       <AnimatePresence>
