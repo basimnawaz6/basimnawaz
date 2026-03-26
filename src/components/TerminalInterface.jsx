@@ -101,10 +101,10 @@ ${resumeData.tools.map((t) => `  [${t.category.toUpperCase().padEnd(13)}] ${t.na
 
 const TerminalInterface = () => {
   const [history, setHistory] = useState([
-    { type: 'system', text: '╔══════  ═══════════════════════════════════╗' },
-    { type: 'system', text: '║     BasimOS Terminal v2.0                ║' },
-    { type: 'system', text: '║     Cybersecurity Portfolio Interface     ║' },
-    { type: 'system', text: '╚══════════════════════════════════════════╝' },
+    { type: 'system', text: '╔═════════════════════════════════════════╗' },
+    { type: 'system', text: '║     BasimOS Terminal v2.0               ║' },
+    { type: 'system', text: '║     Cybersecurity Portfolio Interface   ║' },
+    { type: 'system', text: '╚═════════════════════════════════════════╝' },
     { type: 'system', text: '' },
     { type: 'output', text: 'Type "help" to see available commands.' },
   ]);
