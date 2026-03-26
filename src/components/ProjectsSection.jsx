@@ -80,6 +80,7 @@ const ProjectsSection = () => {
                   </div>
 
                   {/* Action Links */}
+                  {/*
                   <div className="flex gap-3">
                     <button className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gray-800/50 border border-gray-700 font-mono text-[10px] text-gray-400 hover:text-royal-glow hover:border-royal/40 transition-all">
                       <FiGithub size={12} />
@@ -90,6 +91,7 @@ const ProjectsSection = () => {
                       REPORT
                     </button>
                   </div>
+                  */}
                 </div>
               </motion.div>
             );
