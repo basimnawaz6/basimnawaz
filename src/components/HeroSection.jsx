@@ -181,8 +181,8 @@ const HeroSection = () => {
                 CONTACT
               </a>
               <a
-                href="/src/data/BasimNawaz.pdf"
-                download="/src/data/BasimNawaz.pdf"
+                href="/../data/BasimNawaz.pdf"
+                download="/../data/BasimNawaz.pdf"
                 className="group flex items-center gap-2 px-6 py-3 border border-gray-700 hover:border-neon-green/40 rounded-lg font-mono text-sm text-gray-400 hover:text-neon-green transition-all duration-300 hover:scale-105"
               >
                 <FiDownload className="group-hover:translate-y-0.5 transition-transform" />
